@@ -14,9 +14,10 @@ main {
 .searchbar {
   width: 20rem;
   height: 2rem;
-  opacity: 50%;
+  opacity: 80%;
   margin-top: 5rem;
   z-index: 3;
+  border-radius: 2rem;
 }
 .location {
   color: #fff;
