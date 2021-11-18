@@ -42,7 +42,7 @@ function App() {
               onKeyPress={getWeather}
             />
             {typeof weatherData.main === "undefined" ? (
-              <div className="entcity">Please Enter The City</div>
+              <div className="entcity">Please Enter The City!</div>
             ) : (
               <div>
                 <p className="location">{weatherData.name}</p>
